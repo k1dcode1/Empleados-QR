@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etFecha"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:foreground="@color/colorAccent"
+        android:gravity="center"
+        android:inputType="date"
+        android:text="01-01-1990"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="388dp"
+        android:layout_height="172dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:foreground="@drawable/sirius_port2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:text="Unidad Minera Alpamarca"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:layout_weight="1"
+        android:foreground="@drawable/sirius_control" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="INGRESAR" />
+
+
+</LinearLayout>
